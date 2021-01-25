@@ -2524,8 +2524,9 @@ async function dorequestThoughtProbes (){
   //let response = await fetch('archivo.php', {
   //let response = await fetch ("https://hci.w-hs.de/data/futurework/Undemanding/archivo.php", {  
   //let response = await fetch('https://hci.w-hs.de/data/futurework/MW-Experiment-3/php/thoughtProbes-db.php', {
-  let response = await fetch('https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', {
-  //let response = await fetch('https://cors-anywhere.herokuapp.com/https://hci.w-hs.de/data/futurework/MW-Experiment-3/php/thoughtProbes-db.php', {  
+  //let response = await fetch('https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', {
+  //let response = await fetch('https://cors-anywhere.herokuapp.com/https://hci.w-hs.de/data/futurework/MW-Experiment-3/php/thoughtProbes-db.php', { 
+  let response = await fetch('https://cors-anywhere.herokuapp.com/https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', { 
     method: 'POST',
     //mode: 'no-cors', 
     headers: {
@@ -2572,7 +2573,8 @@ async function dorequestPlatforms (){
   //let response = await fetch('https://cors-anywhere.herokuapp.com/https://hci.w-hs.de/data/futurework/MW-Experiment-3/php/platforms-db.php', { 
   //let response = await fetch('https://hci.w-hs.de/data/futurework/MW-Experiment-3/php/platforms-db.php', { 
   //let response = await fetch('https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', {
-  let response = await fetch('https://cors-proxy.htmldriven.com/?url=https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', {   
+  //let response = await fetch('https://cors-proxy.htmldriven.com/?url=https://hci.w-hs.de/data/futurework/Undemanding/PlatformsDB.php', {  
+  let response = await fetch('https://cors-anywhere.herokuapp.com/https://hci.w-hs.de/data/futurework/UndemandingFading/MW-Experiment-5(FadingPlayer)/php/thoughtProbes-db.php', {  
   method: 'POST',
   //mode: 'no-cors', 
   headers: {
